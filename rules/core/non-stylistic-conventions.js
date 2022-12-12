@@ -192,6 +192,7 @@ module.exports = {
 		'hue-degree-notation': 'angle',
 		'import-notation': 'string',
 		'keyframe-selector-notation': 'percentage',
+		'media-feature-range-notation': null,
 		'selector-not-notation': 'complex',
 		'selector-pseudo-element-colon-notation': 'double',
 		'comment-pattern': null,
