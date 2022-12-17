@@ -37,7 +37,6 @@ A `.stylelintrc` file will be automatically created in the root of your project 
 }
 ```
 
-
 If the file is not created automatically by any reason, simply create a `.stylelintrc` file in the root of project and copy code above.
 
 ## @meteozdemir/stylelint-config-core/rules/prettier
