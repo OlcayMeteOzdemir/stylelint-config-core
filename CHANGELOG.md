@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.1.2 - December 16, 2022
+
+  - Updated: Stylelint 14.16.0 to 14.16.1
+  - Updated: @meteozdemir/stylelint-config-order 1.0.0 to 1.0.1
+
 ## v1.1.1 - December 16, 2022
 
   - Changed: Some code examples changed from `README.md`
