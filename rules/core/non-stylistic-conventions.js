@@ -58,6 +58,7 @@ module.exports = {
 		'media-feature-name-allowed-list': null,
 		'media-feature-name-disallowed-list': null,
 		'media-feature-name-no-vendor-prefix': true,
+		'media-feature-name-unit-allowed-list': null,
 		'media-feature-name-value-allowed-list': null,
 		'property-allowed-list': null,
 		'property-disallowed-list': null,
@@ -114,6 +115,64 @@ module.exports = {
 			true,
 			{
 				ignoreValues: [],
+			},
+		],
+		'function-name-case': [
+			'lower',
+			{
+				ignoreFunctions: [],
+			},
+		],
+		'selector-type-case': [
+			'lower',
+			{
+				ignoreTypes: [],
+			},
+		],
+		'value-keyword-case': [
+			'lower',
+			{
+				ignoreKeywords: [],
+				ignoreProperties: [],
+				ignoreFunctions: [],
+				camelCaseSvgKeywords: false,
+			},
+		],
+		'at-rule-empty-line-before': [
+			'always',
+			{
+				except: ['first-nested', 'blockless-after-same-name-blockless'],
+				ignore: ['after-comment'],
+				ignoreAtRules: [],
+			},
+		],
+		'comment-empty-line-before': [
+			'always',
+			{
+				except: ['first-nested'],
+				ignore: ['stylelint-commands'],
+				ignoreComments: [],
+			},
+		],
+		'custom-property-empty-line-before': [
+			'always',
+			{
+				except: ['first-nested', 'after-custom-property'],
+				ignore: ['after-comment', 'inside-single-line-block'],
+			},
+		],
+		'declaration-empty-line-before': [
+			'always',
+			{
+				except: ['first-nested', 'after-declaration'],
+				ignore: ['after-comment', 'inside-single-line-block'],
+			},
+		],
+		'rule-empty-line-before': [
+			'always',
+			{
+				except: ['first-nested'],
+				ignore: ['after-comment'],
 			},
 		],
 		'declaration-block-single-line-max-declarations': 1,
@@ -248,5 +307,6 @@ module.exports = {
 			},
 		],
 		'shorthand-property-no-redundant-values': true,
+		'comment-whitespace-inside': 'always',
 	},
 };
