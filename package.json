@@ -30,7 +30,7 @@
 	"license": "MIT",
 	"homepage": "https://github.com/OlcayMeteOzdemir/stylelint-config-core#readme",
 	"dependencies": {
-		"@meteozdemir/stylelint-config-order": "^1.0.2"
+		"@meteozdemir/stylelint-config-order": "^1.0.3"
 	},
 	"devDependencies": {
 		"@meteozdemir/eslint-config-core": "^1.3.4",
