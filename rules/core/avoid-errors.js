@@ -72,6 +72,14 @@ module.exports = {
 				ignoreAtRules: [],
 			},
 		],
+		'declaration-property-value-no-unknown': [
+			null,
+			{
+				ignoreProperties: {},
+				propertiesSyntax: {},
+				typesSyntax: {},
+			},
+		],
 		'function-no-unknown': [
 			true,
 			{
