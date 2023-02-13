@@ -2,7 +2,7 @@ module.exports = {
 	extends: [
 		'@meteozdemir/stylelint-config-order',
 		'./rules/core/avoid-errors',
-		'./rules/core/non-stylistic-conventions',
+		'./rules/core/enforce-conventions',
 		'./rules/high-performance-animation',
 	],
 };
